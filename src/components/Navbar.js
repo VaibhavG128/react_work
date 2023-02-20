@@ -1,12 +1,12 @@
 import React from 'react'
 import '../css/HomePageCSS.css'
-import {Search} from '@mui/material/styles'
+// import {Search} from '@mui/material/styles'
 const Navbar = () => {
 
     return (
     <div className='wrapper'>
     <div className='left'>
-      <Search></Search>
+      {/* <Search></Search> */}
     <input className='searchbar'></input></div>
     <div className='center'>
     <h1 className='logo'>SOLDO</h1>
